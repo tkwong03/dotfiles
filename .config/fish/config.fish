@@ -27,10 +27,6 @@ alias copytoken='cat ~/git/.gittoken.txt | xclip -selection clipboard'
 
 alias dotcfg='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
-# update fish history file in dotfiles repo
-alias fishhistoryupt='cp ~/.local/share/fish/fish_history ~/git/linux-install/dotfiles/fish/fish_history'
-alias configfishupt='cp ~/.config/fish/config.fish ~/git/linux-install/dotfiles/fish/config.fish'
-
 thefuck --alias | source
 
 # ~~~~~~~~~~~~~~~~~~~
