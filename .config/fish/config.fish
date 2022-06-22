@@ -25,7 +25,7 @@ alias commit='git commit'
 alias addall='git add -A'
 alias copytoken='cat ~/git/.gittoken.txt | xclip -selection clipboard'
 
-alias dotcfg='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias dotgit='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 thefuck --alias | source
 
