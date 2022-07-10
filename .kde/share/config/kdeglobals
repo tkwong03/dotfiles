@@ -133,10 +133,10 @@ ForegroundVisited=0,188,212
 [General]
 ColorScheme=GraphiteNordDark
 Name=GraphiteNordDark
-font=IBM Plex Sans,13,-1,5,53,0,0,0,0,0,Text
-menuFont=IBM Plex Sans,13,-1,5,53,0,0,0,0,0,Text
+font=IBM Plex Sans,12,-1,5,53,0,0,0,0,0,Text
+menuFont=IBM Plex Sans,12,-1,5,53,0,0,0,0,0,Text
 shadeSortColumn=true
-smallestReadableFont=IBM Plex Sans,12,-1,5,53,0,0,0,0,0,Text
+smallestReadableFont=IBM Plex Sans,11,-1,5,53,0,0,0,0,0,Text
 toolBarFont=IBM Plex Sans,10,-1,5,53,0,0,0,0,0,Text
 widgetStyle=Breeze
 
