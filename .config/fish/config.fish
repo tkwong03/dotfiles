@@ -25,20 +25,14 @@ alias commit='git commit'
 alias addall='git add -A'
 alias copytoken='cat ~/git/.gittoken.txt | xclip -selection clipboard'
 
-alias dotgit='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias dotgit='/usr/bin/git --git-dir=$HOME/.dotgit/ --work-tree=$HOME'
 
 thefuck --alias | source
 
 # ~~~~~~~~~~~~~~~~~~~
 #     FUNCTIONS
 # ~~~~~~~~~~~~~~~~~~~
-function fullupt
-	sudo dnf update -y
-	flatpak update -y
-	echo "Update is complete!"
-end
 
 function please
 	eval sudo $history[1]
 end
-
