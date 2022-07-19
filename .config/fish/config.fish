@@ -36,3 +36,6 @@ thefuck --alias | source
 function please
 	eval sudo $history[1]
 end
+
+function fish_greeting
+end
