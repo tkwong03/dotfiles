@@ -10,7 +10,7 @@ Number=1
 Rows=1
 
 [ModifierOnlyShortcuts]
-Meta=org.kde.lattedock,/Latte,org.kde.LatteDock,activateLauncherMenu
+Meta=org.kde.krunner,/App,,toggleDisplay
 
 [Plugins]
 blurEnabled=false
